@@ -4,6 +4,9 @@
     <img class="rounded" :src="account.picture" alt="" />
     <p>{{ account.email }}</p>
   </div>
+  <div class="search text-center">
+    <h1>Welcome {{ account.name }}</h1>
+  </div>
 </template>
 
 <script>
